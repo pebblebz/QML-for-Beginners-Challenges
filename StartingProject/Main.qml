@@ -1,8 +1,33 @@
 import QtQuick
 import QtQuick.Controls.Basic
+import QtQuick.Layouts
 
 ApplicationWindow {
     id: window
+    property string restaurantName: "Ahji-Bhaji"
+
+    FontLoader {
+        id: kalamFont
+        source: Qt.resolvedUrl("fonts/Kalam-Regular.ttf")
+    }
+
+    font {
+        family: kalamFont.font.family
+        pixelSize: 20
+    }
+
+    Palette {
+        id: lightPalette
+        dark: "black"
+        window: "white"
+        windowText: "black"
+        button: "lightGrey"
+        buttonText: "black"
+        base: "white"
+        text: "black"
+    }
+
+    palette: lightPalette
 
     /* Your menu ordering application should contain the following:
 
@@ -22,10 +47,48 @@ ApplicationWindow {
           RowLayout and ColumnLayout from the Qt Quick Layouts module.
     */
 
-    width: 640
-    height: 480
+    width: 724
+    minimumWidth: 650
+    height: 800
+    minimumHeight: window.height
     visible: true
-    title: qsTr("Your Restaurant Name")
+    title: qsTr(window.restaurantName)
 
-    color: "black"
+    background: Image {
+        source: Qt.resolvedUrl("images/curry.jpg")
+        fillMode: Image.PreserveAspectCrop
+    }
+
+    header: Pane {
+        padding: 8
+        background: Rectangle {
+            color: lightPalette.window
+            opacity: 0.7
+        }
+
+        Label {
+            text: window.restaurantName
+            anchors.centerIn: parent
+            font.pixelSize: 30
+        }
+    }
+
+    footer: Pane {
+        padding: 8
+        background: Rectangle {
+            color: lightPalette.window
+            opacity: 0.7
+        }
+
+        Label {
+            text: `ORDER TOTAL: $${fullMenu.tipAmount + fullMenu.foodAmount}`
+            anchors.left: parent.left
+            font.pixelSize: 30
+        }
+    }
+
+    FullMenu {
+        id: fullMenu
+        anchors.fill: parent
+    }
 }

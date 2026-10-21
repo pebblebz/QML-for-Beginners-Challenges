@@ -18,6 +18,12 @@ qt_add_qml_module(appIntroToQtQuickControls
     QML_FILES
         Main.qml
     RESOURCES
+    RESOURCES fonts/Kalam-Regular.ttf images/dark/cart_add.svg images/dark/cart_remove.svg images/dark/checkout.svg images/dark/mild.svg images/dark/very_hot.svg images/light/cart_add.svg images/light/cart_remove.svg images/light/checkout.svg images/light/mild.svg images/light/very_hot.svg images/curry.jpg
+    QML_FILES MenuSection.qml
+    QML_FILES FullMenu.qml
+    QML_FILES
+    QML_FILES SectionObject.qml
+    QML_FILES SpiceSelection.qml
     # TODO: add the resources you want to use
     # some are provided already in the images and fonts folders
 )
