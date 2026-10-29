@@ -4,11 +4,14 @@
 import QtQuick
 
 Image {
-    source: Theme.darkMode ? "images/settingsWhite" :
-                             "images/settingsBlack"
+    id: root
+
+    signal clicked()
+
+    source: Theme.darkMode ? Qt.resolvedUrl("images/settingsWhite") :
+                             Qt.resolvedUrl("images/settingsBlack")
 
     TapHandler {
-        onTapped: drawer.opened ? drawer.close() :
-                                  drawer.open()
+        onTapped: root.clicked()
     }
 }

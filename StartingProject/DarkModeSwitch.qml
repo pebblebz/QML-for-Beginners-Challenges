@@ -9,8 +9,8 @@ RowLayout {
     spacing: 0
 
     Image {
-        source: Theme.darkMode ? "images/lightModeWhite" :
-                                 "images/lightModeBlack"
+        source: Theme.darkMode ? Qt.resolvedUrl("images/lightModeWhite") :
+                                 Qt.resolvedUrl("images/lightModeBlack")
 
         Layout.alignment: Qt.AlignLeft
 
@@ -24,12 +24,12 @@ RowLayout {
 
         Layout.fillWidth: true
 
-        onCheckedChanged: Theme.darkMode = checked
+        onClicked: Theme.darkMode = checked
     }
 
     Image {
-        source: Theme.darkMode ? "images/darkModeWhite" :
-                                 "images/darkModeBlack"
+        source: Theme.darkMode ? Qt.resolvedUrl("images/darkModeWhite") :
+                                 Qt.resolvedUrl("images/darkModeBlack")
 
         Layout.alignment: Qt.AlignRight
 

@@ -1,0 +1,11 @@
+--resource
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/qmake_IntroToQtQuickControls.qrc
+--resource
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/appIntroToQtQuickControls_raw_qml_0.qrc
+--resource
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/appIntroToQtQuickControls_raw_res_0.qrc
+/qt/qml/IntroToQtQuickControls/Main.qml
+/qt/qml/IntroToQtQuickControls/MenuSection.qml
+/qt/qml/IntroToQtQuickControls/FullMenu.qml
+/qt/qml/IntroToQtQuickControls/SectionObject.qml
+/qt/qml/IntroToQtQuickControls/SpiceSelection.qml

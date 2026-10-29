@@ -1,0 +1,31 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 13,
+                            "durationMicroseconds": 17000,
+                            "functionName": "source",
+                            "line": 16,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTapped",
+                            "line": 22,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/SettingsButton.qml"
+                }
+            ],
+            "moduleId": "QMLBestPracticeSolution(appQMLBestPracticeSolution)"
+        }
+    ]
+}

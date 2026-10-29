@@ -6,6 +6,8 @@ import QtQuick.Controls
 
 Page {
     id: root
+    required property int index
+    required property Chapter modelData
 
     padding: 8
 
@@ -15,7 +17,7 @@ Page {
         leftPadding: 8
 
         font: Theme.heading1
-        text: qsTr("Chapter ") + (index + 1) + ": " + model.title
+        text: `Chapter ${index + 1}: ${modelData.title}`
     }
 
     Flickable {
@@ -30,8 +32,8 @@ Page {
             id: pageContent
 
             font: Theme.body
-            text: model.text
-            width: parent.width
+            text: root.modelData.text
+            width: flickable.width
             // You may notice the wrapping doesn't work!
             // This is because "parent" here is not actually
             // the Flickable! See Flickable's docs for details.

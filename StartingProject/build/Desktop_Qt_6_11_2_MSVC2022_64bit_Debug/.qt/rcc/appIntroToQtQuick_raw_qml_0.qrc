@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/IntroToQtQuick/">
+    <file alias="Main.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/Main.qml</file>
+  </qresource>
+</RCC>
+

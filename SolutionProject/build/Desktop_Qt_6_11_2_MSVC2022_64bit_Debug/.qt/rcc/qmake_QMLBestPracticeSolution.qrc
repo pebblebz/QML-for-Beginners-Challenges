@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/QMLBestPracticeSolution">
+    <file alias="qmldir">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/QMLBestPracticeSolution/qmldir</file>
+  </qresource>
+</RCC>
+

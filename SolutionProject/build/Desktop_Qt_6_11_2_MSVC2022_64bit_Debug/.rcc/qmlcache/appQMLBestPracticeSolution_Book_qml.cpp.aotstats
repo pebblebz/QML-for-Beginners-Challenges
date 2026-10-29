@@ -1,0 +1,15 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                    ],
+                    "filePath": "C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/Book.qml"
+                }
+            ],
+            "moduleId": "QMLBestPracticeSolution(appQMLBestPracticeSolution)"
+        }
+    ]
+}

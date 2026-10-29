@@ -4,6 +4,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
+import QtQuick.Controls.Material
 
 ApplicationWindow {
     id: window
@@ -118,6 +119,8 @@ ApplicationWindow {
             id: settingsButton
 
             Layout.leftMargin: 8
+
+            onClicked: drawer.opened ? drawer.close() : drawer.open()
         }
 
         Label {
@@ -148,7 +151,8 @@ ApplicationWindow {
             enabled: swipeView.currentIndex > 0
             flat: true
             text: qsTr("< Previous")
-
+            Material.background: Theme.background
+            Material.foreground: Theme.foreground
             Layout.alignment: Qt.AlignLeft
 
             onClicked: swipeView.decrementCurrentIndex()
@@ -169,7 +173,8 @@ ApplicationWindow {
             enabled: swipeView.currentIndex < swipeView.count - 1
             flat: true
             text: qsTr("Next >")
-
+            Material.background: Theme.background
+            Material.foreground: Theme.foreground
             Layout.alignment: Qt.AlignRight
 
             onClicked: swipeView.incrementCurrentIndex()
@@ -201,37 +206,56 @@ ApplicationWindow {
         }
     }
 
-    Component.onCompleted: updateDrawerDimensions()
-    onHeightChanged: updateDrawerDimensions()
-    onWidthChanged: updateDrawerDimensions()
+    Component {
 
-    function updateDrawerDimensions() {
-        drawer.y = header.height
-        drawer.width = width * 0.3
-        drawer.height = height - footer.height - header.height
+        id: chapterButton
+        Button {
+            required property Chapter modelData
+            required property int index
+
+            Material.foreground: swipeView.currentIndex === index ? Theme.background : Theme.foreground
+            font: Theme.body
+            text: modelData.title
+            background: Rectangle {
+                    color: swipeView.currentIndex === index ? Theme.foreground : Theme.background
+                    border.color: swipeView.currentIndex == index ? "transparent" : Theme.foreground
+                    border.width: 2
+                    radius: 10
+                }
+
+            Layout.fillWidth: true
+            onClicked: () => {swipeView.currentIndex = index}
+        }
     }
 
     Drawer {
         id: drawer
+        y: window.header.height
+        width: window.width * 0.3
+        height: window.height - window.footer.height - window.header.height
+        Material.background: Theme.background
 
         ColumnLayout {
-            anchors.top: parent.top
-            anchors.left: parent.left
-            anchors.right: parent.right
-            anchors.topMargin: 8
-            anchors.leftMargin: 8
-            anchors.rightMargin: 8
+            anchors {
+                top: parent.top
+                left: parent.left
+                right: parent.right
+                topMargin: 8
+                leftMargin: 8
+                rightMargin: 8
+            }
 
             Label {
                 id: settingsLabel
 
                 font: Theme.heading1
+                color: Theme.foreground
                 text: qsTr("Settings")
             }
 
             Label {
                 id: fontSizeLabel
-
+                color: Theme.foreground
                 text: qsTr("Font Size")
             }
 
@@ -241,12 +265,24 @@ ApplicationWindow {
 
             Label {
                 id: darkModeLabel
-
+                color: Theme.foreground
                 text: qsTr("Dark Mode")
             }
 
             DarkModeSwitch {
                 id: darkModeSwitch2
+            }
+
+            ColumnLayout {
+                Label {
+                    text: qsTr("Chapters")
+                    color: Theme.foreground
+                }
+
+                Repeater {
+                    delegate: chapterButton
+                    model: greatNightIn.chapters
+                }
             }
         }
     }

@@ -8,10 +8,10 @@ import QtQuick
 QtObject {
     property bool darkMode: true
 
-    readonly property var foreground: darkMode ? "white" : "black"
-    readonly property var background: darkMode ? "black" : "white"
+    readonly property color foreground: darkMode ? "white" : "black"
+    readonly property color background: darkMode ? "black" : "white"
 
-    function updateBodyPixelSize(pixelSize) {
+    function updateBodyPixelSize(pixelSize): void {
         body.pixelSize = pixelSize
     }
 

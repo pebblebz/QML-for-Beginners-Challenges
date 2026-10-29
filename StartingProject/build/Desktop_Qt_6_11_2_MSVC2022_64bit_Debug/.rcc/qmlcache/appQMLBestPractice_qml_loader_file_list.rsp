@@ -1,0 +1,14 @@
+--resource
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/qmake_QMLBestPractice.qrc
+--resource
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/appQMLBestPractice_raw_qml_0.qrc
+--resource
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/appQMLBestPractice_raw_res_0.qrc
+/qt/qml/QMLBestPractice/Book.qml
+/qt/qml/QMLBestPractice/BookPage.qml
+/qt/qml/QMLBestPractice/DarkModeSwitch.qml
+/qt/qml/QMLBestPractice/FontSizeSlider.qml
+/qt/qml/QMLBestPractice/GreatNightIn.qml
+/qt/qml/QMLBestPractice/Main.qml
+/qt/qml/QMLBestPractice/SettingsButton.qml
+/qt/qml/QMLBestPractice/Theme.qml

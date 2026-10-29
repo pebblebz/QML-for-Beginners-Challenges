@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/IntroToQML/">
+    <file alias="IDPhoto.png">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/IDPhoto.png</file>
+  </qresource>
+</RCC>
+

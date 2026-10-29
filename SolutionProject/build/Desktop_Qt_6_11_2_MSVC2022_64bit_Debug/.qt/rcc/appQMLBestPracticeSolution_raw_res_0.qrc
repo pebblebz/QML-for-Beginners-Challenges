@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/qt/qml/QMLBestPracticeSolution/">
+    <file alias="images/lightModeWhite.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/images/lightModeWhite.svg</file>
+    <file alias="images/lightModeBlack.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/images/lightModeBlack.svg</file>
+    <file alias="images/darkModeBlack.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/images/darkModeBlack.svg</file>
+    <file alias="images/darkModeWhite.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/images/darkModeWhite.svg</file>
+    <file alias="images/settingsBlack.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/images/settingsBlack.svg</file>
+    <file alias="images/settingsWhite.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/images/settingsWhite.svg</file>
+  </qresource>
+</RCC>
+

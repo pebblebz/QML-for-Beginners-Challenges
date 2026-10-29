@@ -1,0 +1,13 @@
+module QMLBestPracticeSolution
+typeinfo appQMLBestPracticeSolution.qmltypes
+depends QtQuick
+prefer :/qt/qml/QMLBestPracticeSolution/
+Book 1.0 Book.qml
+BookPage 1.0 BookPage.qml
+DarkModeSwitch 1.0 DarkModeSwitch.qml
+FontSizeSlider 1.0 FontSizeSlider.qml
+GreatNightIn 1.0 GreatNightIn.qml
+Main 1.0 Main.qml
+SettingsButton 1.0 SettingsButton.qml
+singleton Theme 1.0 Theme.qml
+

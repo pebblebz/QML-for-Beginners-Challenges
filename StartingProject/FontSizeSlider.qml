@@ -6,13 +6,14 @@ import QtQuick.Controls
 import QtQuick.Layouts
 
 RowLayout {
+    id: root
     spacing: 0
 
     property string sampleLetter: "A"
 
     Label {
         font.pixelSize: bodyFontSlider.from
-        text: sampleLetter
+        text: root.sampleLetter
     }
 
     Slider {
@@ -28,7 +29,7 @@ RowLayout {
         Connections {
             target: bodyFontSlider
 
-            onValueChanged: {
+            function onValueChanged() {
                 Theme.updateBodyPixelSize(bodyFontSlider.value)
             }
         }

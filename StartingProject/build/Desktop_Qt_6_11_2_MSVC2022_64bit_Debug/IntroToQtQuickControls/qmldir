@@ -1,0 +1,10 @@
+module IntroToQtQuickControls
+typeinfo appIntroToQtQuickControls.qmltypes
+prefer :/qt/qml/IntroToQtQuickControls/
+Main 1.0 Main.qml
+MenuSection 1.0 MenuSection.qml
+FullMenu 1.0 FullMenu.qml
+SectionObject 1.0 SectionObject.qml
+SpiceSelection 1.0 SpiceSelection.qml
+depends QtQuick
+

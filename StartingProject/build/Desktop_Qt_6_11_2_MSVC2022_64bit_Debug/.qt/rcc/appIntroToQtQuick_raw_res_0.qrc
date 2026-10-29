@@ -1,0 +1,27 @@
+<RCC>
+  <qresource prefix="/qt/qml/IntroToQtQuick/">
+    <file alias="fonts/Silkscreen/Silkscreen-Bold.ttf">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/fonts/Silkscreen/Silkscreen-Bold.ttf</file>
+    <file alias="fonts/Silkscreen/Silkscreen-Regular.ttf">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/fonts/Silkscreen/Silkscreen-Regular.ttf</file>
+    <file alias="images/cast_connected.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/cast_connected.svg</file>
+    <file alias="images/cast_white.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/cast_white.svg</file>
+    <file alias="images/closed_caption.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/closed_caption.svg</file>
+    <file alias="images/closed_caption_white.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/closed_caption_white.svg</file>
+    <file alias="images/fast_forward.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/fast_forward.svg</file>
+    <file alias="images/fast_rewind.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/fast_rewind.svg</file>
+    <file alias="images/hdr_on.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/hdr_on.svg</file>
+    <file alias="images/hdr_on_white.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/hdr_on_white.svg</file>
+    <file alias="images/mic.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/mic.svg</file>
+    <file alias="images/mic_white.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/mic_white.svg</file>
+    <file alias="images/minus.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/minus.svg</file>
+    <file alias="images/play_pause.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/play_pause.svg</file>
+    <file alias="images/plus.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/plus.svg</file>
+    <file alias="images/power.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/power.svg</file>
+    <file alias="images/settings.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/settings.svg</file>
+    <file alias="images/speaker.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/speaker.svg</file>
+    <file alias="images/speaker_muted.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/speaker_muted.svg</file>
+    <file alias="images/speaker_muted_white.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/speaker_muted_white.svg</file>
+    <file alias="images/volume_down.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/volume_down.svg</file>
+    <file alias="images/volume_up.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/volume_up.svg</file>
+  </qresource>
+</RCC>
+

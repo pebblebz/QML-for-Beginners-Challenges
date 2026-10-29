@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="/qt/qml/IntroToQtQuickControls/">
+    <file alias="fonts/Kalam-Regular.ttf">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/fonts/Kalam-Regular.ttf</file>
+    <file alias="images/dark/cart_add.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/dark/cart_add.svg</file>
+    <file alias="images/dark/cart_remove.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/dark/cart_remove.svg</file>
+    <file alias="images/dark/checkout.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/dark/checkout.svg</file>
+    <file alias="images/dark/mild.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/dark/mild.svg</file>
+    <file alias="images/dark/very_hot.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/dark/very_hot.svg</file>
+    <file alias="images/light/cart_add.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/light/cart_add.svg</file>
+    <file alias="images/light/cart_remove.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/light/cart_remove.svg</file>
+    <file alias="images/light/checkout.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/light/checkout.svg</file>
+    <file alias="images/light/mild.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/light/mild.svg</file>
+    <file alias="images/light/very_hot.svg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/light/very_hot.svg</file>
+    <file alias="images/curry.jpg">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/images/curry.jpg</file>
+  </qresource>
+</RCC>
+

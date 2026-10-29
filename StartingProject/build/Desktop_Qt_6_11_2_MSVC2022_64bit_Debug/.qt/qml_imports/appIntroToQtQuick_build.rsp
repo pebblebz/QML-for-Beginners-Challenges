@@ -1,0 +1,15 @@
+-rootPath
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject
+-cmake-output
+-output-file
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/qml_imports/appIntroToQtQuick_build.cmake
+-importPath
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug
+-importPath
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/IntroToQtQuick
+-importPath
+C:/Qt/6.11.2/msvc2022_64/qml
+-qrcFiles
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/qmake_IntroToQtQuick.qrc
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/appIntroToQtQuick_raw_qml_0.qrc
+C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/build/Desktop_Qt_6_11_2_MSVC2022_64bit_Debug/.qt/rcc/appIntroToQtQuick_raw_res_0.qrc

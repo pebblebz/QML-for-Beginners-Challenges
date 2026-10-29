@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/qt/qml/QMLBestPracticeSolution/">
+    <file alias="Book.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/Book.qml</file>
+    <file alias="BookPage.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/BookPage.qml</file>
+    <file alias="DarkModeSwitch.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/DarkModeSwitch.qml</file>
+    <file alias="FontSizeSlider.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/FontSizeSlider.qml</file>
+    <file alias="GreatNightIn.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/GreatNightIn.qml</file>
+    <file alias="Main.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/Main.qml</file>
+    <file alias="SettingsButton.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/SettingsButton.qml</file>
+    <file alias="Theme.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/SolutionProject/Theme.qml</file>
+  </qresource>
+</RCC>
+

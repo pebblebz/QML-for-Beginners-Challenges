@@ -1,0 +1,6 @@
+module PositionersAndLayouts
+typeinfo appPositionersAndLayouts.qmltypes
+prefer :/qt/qml/PositionersAndLayouts/
+Main 1.0 Main.qml
+depends QtQuick
+

@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/qt/qml/IntroToQtQuickControls/">
+    <file alias="Main.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/Main.qml</file>
+    <file alias="MenuSection.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/MenuSection.qml</file>
+    <file alias="FullMenu.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/FullMenu.qml</file>
+    <file alias="SectionObject.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/SectionObject.qml</file>
+    <file alias="SpiceSelection.qml">C:/Users/Surface/Documents/GitHub/QML-for-Beginners-Challenges/StartingProject/SpiceSelection.qml</file>
+  </qresource>
+</RCC>
+
